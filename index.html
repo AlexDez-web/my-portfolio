@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAD | Web developpeur </title>
+    <link rel="icon" href="/assets/ad.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+
+    .scrollbar-hide {
+        -ms-text-overflow-style: none;
+        scrollbar-width: none;
+    }
+</style>
+
+<body class="w-full">
+    <header class="w-full sticky top-0 z-50 bg-gradient-to-t from-cyan-500 to-blue-500 px-4 py-4 bg-transparent shadow-md">
+        <nav class="w-full">
+            <div class="flex justify-between">
+                <div class="font-semibold text-white">
+                    <a class="" href="#home">
+                        <img src="/assets/ad.jpg" alt="Logo" class="w-10 h-10 rounded-full">
+                    </a>
+                </div>
+                <ul class="flex items-center gap-4 text-white text-xl">
+                    <li class="hover:text-gray-700 transition-all duration-150">
+                        <a href="#home-form">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="hidden md:inline">Acceuil</span>
+                        </a>
+                    </li>
+                    <li class="hover:text-gray-700 transition-all duration-150">
+                        <a href="#realisations-form">
+                            <i class="fa-solid fa-paintbrush"></i>
+                            <span class="hidden md:inline">Réalisations</span>
+                        </a>
+                    </li>
+                    <li class="hover:text-gray-700 transition-all duration-150">
+                        <a href="#services-form">
+                            <i class="fa-solid fa-cogs"></i>
+                            <span class="hidden md:inline">Services</span>
+                        </a>
+                    </li>
+                    <li class="hover:text-gray-700 transition-all duration-150">
+                        <a href="#contact-form">
+                            <i class="fa-solid fa-address-card"></i>
+                            <span class="hidden md:inline">Contacts</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="w-full bg-[url('/assets/programmation.jpg')] bg-cover bg-center">
+        <div class="w-full min-h-screen bg-black/[0.5] backdrop-blur-sm">
+            <div class="w-full h-full text-white">
+                <div class="w-full h-full px-4 py-2">
+                    <div class="flex flex-col w-full h-full">
+                        <div class="font-bold text-xl py-3">
+                            Je suis Alex <span class="text-blue-400 font-bold">Desire</span>
+                        </div>
+
+                        <div class="w-full">
+                            <p class="py-2">
+                                Developpeur web, Passionné par le développement et l'innovation,
+                                je conçois des solutions performantes et créatives en combinant
+                                mes compétences techniques et mon envie d'apprendre continuellement
+                            </p>
+
+                            <p class="py-2">
+                                Pour votre site vitrine, e-commerce ou votre application web,
+                                Je serai ravis de réaliser ce dont vous avez besoin.
+                            </p>
+                        </div>
+
+                        <div class="my-4 hidden">
+                            <a class="bg-blue-400 p-2 text-white rounded" href="">En savoir plus</a>
+                        </div>
+
+                        <div id="services-form">
+                            <div class="text-center my-4">
+                                <div class="text-blue-500 font-bold">JE SUIS A VOTRE DISPOSITION</div>
+                                <div>Vous pouvez me solliciter pour</div>
+                            </div>
+
+                            <div class="text-center text-blue-500 font-bold my-4">
+                                <span><i class="fa-solid fa-cogs"></i> SERVICES</span>
+                            </div>
+
+                            <div
+                                class="w-full text-center px-4 py-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                <div
+                                    class="bg-gradient-to-r from-blue-400 to-blue-500 p-2 text-white rounded-xl cursor-pointer transition-transform duration-300 hover:scale-105">
+                                    Je conçois des solutions adaptées à vos besoins, en vous accompagnant tout
+                                    au long de la conception, du développement et de la maintenace de vos
+                                    sites et application web, pour garantir le succès de votre projet
+                                </div>
+                                <div
+                                    class="bg-gradient-to-r from-blue-400 to-blue-500 p-2 text-white rounded-xl cursor-pointer transition-transform duration-300 hover:scale-105">
+                                    Travailler en remote
+                                    Grâce à une communication fluide et des outils
+                                    collaboratifs, je garantie la continuité et la
+                                    productivité de vos projets.
+                                    Intégrez une compétences externes à votre
+                                    équipes et réduire les coûts opérationnels.
+                                </div>
+                                <div
+                                    class="bg-gradient-to-r from-blue-400 to-blue-500 p-2 text-white rounded-xl cursor-pointer transition-transform duration-300 hover:scale-105">
+                                    Developpement de logiciel
+                                    Automatisant vos tâches répétitives,
+                                    améliorez l'expérience client, renforcez la
+                                    sécurité de vos données et facilitez
+                                    l'évolution de votre entreprise.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HEADER -->
+    <div class="w-full bg-blue-500">
+        <div class="text-xl text-white font-bold flex items-center justify-center py-4">
+            <span><i class="fa-solid fa-hammer"></i> COMPETENCES</span>
+        </div>
+    </div>
+    <section class="w-full bg-[url('/assets/skills.jpg')] bg-cover bg-center">
+        <div class="w-full min-h-screen bg-black/[0.5] backdrop-blur-sm flex flex-col items-center justify-center">
+            <div class="max-w-sm flex justify-center items-center px-4 my-2">
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+                    <div class="bg-gradient-to-r from-blue-400 to-blue-500 p-2 rounded-xl">
+                        <img class="w-full h-full object-contain" src="/img/html.png" alt="HTML">
+                    </div>
+                    <div class="bg-gradient-to-r from-blue-400 to-blue-500 p-2 rounded-xl">
+                        <img class="w-full h-full object-contain rounded-md overflow-hidden" src="/img/css.png"
+                            alt="CSS">
+                    </div>
+                    <div class="bg-gradient-to-r from-blue-400 to-blue-500 p-2 rounded-xl">
+                        <img class="w-full h-full object-contain rounded-md overflow-hidden" src="/img/js.png" alt="JS">
+                    </div>
+                    <div class="bg-gradient-to-r from-blue-400 to-blue-500 p-2 rounded-xl">
+                        <img class="w-full h-full object-contain rounded-md overflow-hidden" src="/img/php.png"
+                            alt="PHP">
+                    </div>
+                    <div class="bg-gradient-to-r from-blue-400 to-blue-500 p-2 rounded-xl">
+                        <img class="w-full h-full object-contain rounded-md overflow-hidden" src="/img/laravel.png"
+                            alt="Laravel">
+                    </div>
+                    <div class="bg-gradient-to-r from-blue-400 to-blue-500 p-2 rounded-xl">
+                        <img class="w-full h-full object-contain rounded-md overflow-hidden" src="/img/MySQL.svg"
+                            alt="MySQL">
+                    </div>
+                    <div class="bg-gradient-to-r from-blue-400 to-blue-500 p-2 rounded-xl">
+                        <img class="w-full h-full object-contain rounded-md overflow-hidden" src="/img/tailwind.png"
+                            alt="Tailwind">
+                    </div>
+                    <div class="bg-gradient-to-r from-blue-400 to-blue-500 p-2 rounded-xl">
+                        <img class="w-full h-full object-contain rounded-md overflow-hidden" src="/img/boostrap.png"
+                            alt="Boostrap">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="w-full bg-blue-500">
+        <div id="realisations-form" class="w-full text-xl text-white font-bold flex items-center justify-center py-4">
+            <span><i class="fa-solid fa-paintbrush"></i> MES REALISATIONS</span>
+        </div>
+    </div>
+    <section class="w-full bg-[url('/assets/skills.jpg')] bg-cover bg-center">
+        <div class="w-full min-h-screen bg-black/[0.5] backdrop-blur-sm flex flex-col items-center justify-center">
+            <div class="w-full hidden">
+                <p class="text-center text-sm text-slate-300 font-semibold">Fiez vous plus aux actes</p>
+            </div>
+
+            <div class="max-w-6xl mx-auto">
+                <div class="px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div
+                        class="bg-gradient-to-r from-blue-400 to-blue-500 ring ring-slate-500 p-2 m-4 rounded-2xl transition-transform duration-300 hover:scale-110">
+                        <div class="w-full h-[40vh] bg-white rounded-md">
+                            <img class="w-full h-full object-contain rounded-md shadow" src="/projets/chat.png" alt="">
+                        </div>
+                        <div class="m-2 text-white">
+                            Cet project est un système de messagerie
+                            mis à la portée de l'utilsateur pour echanger
+                            avec ses proches
+                        </div>
+                    </div>
+                    <div
+                        class="bg-gradient-to-r from-blue-400 to-blue-500 ring ring-slate-500 p-2 m-4 border rounded-2xl transition-transform duration-300 hover:scale-110">
+                        <div class="w-full h-[40vh] bg-white rounded-md">
+                            <img class="w-full h-full object-contain rounded-md shadow" src="/projets/projet-js.png"
+                                alt="">
+                        </div>
+                        <div class="m-2 text-white">
+                            Cet projet est un site e-commerce
+                            sur lequel l'utilsateur peut acheter des materiaux
+                            informtiques
+                        </div>
+                    </div>
+                    <div
+                        class="bg-gradient-to-r from-blue-400 to-blue-500 ring ring-slate-500 p-2 m-4 border rounded-2xl transition-transform duration-300 hover:scale-110">
+                        <div class="w-full h-[40vh] bg-white rounded-md">
+                            <img class="w-full h-full object-contain rounded-md shadow" src="/projets/windev.png"
+                                alt="">
+                        </div>
+                        <div class="m-2 text-white">
+                            Mise en place d'une base de données de gestions
+                            des courriers,
+                            recettes et dépenses
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="w-full bg-blue-500">
+        <div class="w-full text-xl text-white font-bold flex items-center justify-center py-4">
+            <span><i class="fa-solid fa-address-card"></i> A VOUS DE JOUER</span>
+        </div>
+    </div>
+    <section class="w-full bg-[url('/assets/contact.jpg')] bg-cover bg-center">
+        <div class="w-full min-h-screen bg-black/[0.5] backdrop-blur-sm flex flex-col items-center justify-center">
+            <div class="max-w-sm mx-auto px-4 flex items-center justify-center">
+                <form method="POST" action="server/inscription.php" id="contact-form">
+                    <div class="w-full flex flex-col gap-2">
+                        <input
+                            class="w-full border rounded-xl border-gray-300 p-2 ring ring-blue-400 outline-blue-400 mt-2"
+                            type="text" name="fullname" id="fullname" placeholder="Nom & Prenom" required>
+                        <input
+                            class="w-full border rounded-xl border-gray-300 p-2 ring ring-blue-400 outline-blue-400 mt-2"
+                            type="email" name="email" id="email" placeholder="Adresse email" required>
+                        <input
+                            class="w-full border rounded-xl border-gray-300 p-2 ring ring-blue-400 outline-blue-400 mt-2"
+                            type="text" name="phone" id="phone" placeholder="Télephone" required>
+                        <textarea
+                            class="w-full border rounded-xl border-gray-300 p-2 ring ring-blue-400 outline-blue-400 mt-2"
+                            name="message" id="message" cols="30" rows="5" placeholder="Comment puis-je vous aider"
+                            required></textarea>
+                    </div>
+                    <div class="w-full flex justify-center my-2">
+                        <button type="submit" class="w-full bg-blue-500 text-white rounded-xl p-2">Envoyez un
+                            message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue-500 w-full text-white p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 text-center">
+            <div class="flex items-center justify-center">
+                <div>
+                    <p class="font-semibold"><i class="fa-solid fa-phone"></i> TELEPHONE</p>
+                    <a href="tel:+2250778360930" target="_blank" class="text-white/[0.6] text-sm">+225 0778360930</a>
+                </div>
+            </div>
+            <div class="flex items-center justify-center">
+                <div>
+                    <p class="font-semibold"><i class="fa-brands fa-whatsapp"></i> WHATSAPP</p>
+                    <a href="https://wa.me/+2250778360930" class="text-white/[0.6] text-sm"
+                        target="_blank">Contactez-moi</a>
+                </div>
+            </div>
+            <div class="flex items-center justify-center">
+                <div>
+                    <p class="font-semibold"><i class="fa-regular fa-envelope"></i> ADRESSE E-MAIL</p>
+                    <a href="mailto:alexdesire.soro21@gmail.com" target="_blank"
+                        class="text-white/[0.6] text-sm">alexdesire.soro21@gmail.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center items-center text-white/[0.6] text-sm border-t border-white/[0.2] my-2 py-2">
+            <div class="bg-blue-500">© CopyRight 2024 AD</div>
+        </div>
+    </footer>
+</body>
+
+</html>
