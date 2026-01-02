@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke
+}
+
+button {
+    cursor: pointer;
+}
+
+form {
+    padding-top: 20px;
+    background: white;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+form h1 {
+    color: red;
+    text-align: center;
+}
+
+form .social-media {
+    display: flex;
+    margin-top: -10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form .social-media p {
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #5454;
+    border-radius: 100%;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+form p.chose-email {
+    text-align: center;
+}
+
+form .inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+form .inputs input {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+form a.inscription {
+    font-size: 14px;
+    margin-bottom: 1rem;
+    color: gray;
+    text-decoration: none;
+}
+
+form span {
+    color: red;
+}
+
+form button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    background: red;
+    outline: none;
+    margin-top: 1rem;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+header a {
+    text-decoration: none;
+    color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
